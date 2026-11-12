@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tu-usuario.github.io/portafolio-reparacion-pc/sitemap.xml
+Sitemap: https://valentinomastro-ops.github.io/portafolio-reparacion-pc/sitemap.xml
