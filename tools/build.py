@@ -111,7 +111,7 @@ body {{ width:1200px; height:630px; overflow:hidden; display:grid; grid-template
 .og-name::before {{ content:""; display:inline-block; width:14px; height:14px; border-radius:50%; background:var(--signal); margin-right:12px; }}
 </style></head>
 <body><div><h1 class="display">Tu PC, desarmada y&nbsp;explicada.</h1>
-<p class="og-name">Tu Nombre · Reparación de PC · Tu Ciudad</p></div>
+<p class="og-name">Lizandro Beltran · Reparación de PC</p></div>
 <figure class="exploded is-open"><svg class="exploded-svg" viewBox="{vb}">{frag}{callouts(meta)}</svg></figure>
 </body></html>'''
     (ROOT / "tools" / "og.html").write_text(og, encoding="utf-8", newline="\n")

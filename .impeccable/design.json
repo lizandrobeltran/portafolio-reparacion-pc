@@ -491,7 +491,7 @@
       "kind": "custom",
       "refersTo": "title-block",
       "description": "Footer drawn as a technical drawing's title block.",
-      "html": "<dl class=\"ds-title-block\"><div><dt>Técnico</dt><dd>Tu Nombre</dd></div><div><dt>Servicio</dt><dd>Reparación de PC · Tu Ciudad</dd></div><div><dt>Hoja</dt><dd>1 de 1</dd></div><div><dt>Año</dt><dd>2026</dd></div></dl>",
+      "html": "<dl class=\"ds-title-block\"><div><dt>Técnico</dt><dd>Lizandro Beltran</dd></div><div><dt>Servicio</dt><dd>Reparación de PC · Tu Ciudad</dd></div><div><dt>Hoja</dt><dd>1 de 1</dd></div><div><dt>Año</dt><dd>2026</dd></div></dl>",
       "css": ".ds-title-block { display:grid; grid-template-columns:1.2fr 1.6fr 0.6fr 0.6fr; margin:0; border:1.5px solid var(--ink, #141414); font-family:var(--font, Archivo, sans-serif); font-size:0.9rem; color:var(--ink-2, #55554f); } .ds-title-block div { padding:0.75rem 1rem; border-left:1px solid var(--rule-strong, #8d8e87); } .ds-title-block div:first-child { border-left:0; } .ds-title-block dt { font-size:0.72rem; font-weight:650; font-stretch:112%; text-transform:uppercase; letter-spacing:0.08em; } .ds-title-block dd { margin:0.2em 0 0; color:var(--ink, #141414); font-weight:550; }"
     }
   ],

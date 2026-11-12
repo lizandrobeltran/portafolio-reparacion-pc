@@ -34,7 +34,6 @@ El sitio tiene datos de ejemplo que **tenés que reemplazar** antes de publicarl
 
 | Dato de ejemplo | Dónde está |
 |---|---|
-| `Tu Nombre`, `TN` (iniciales) | `index.template.html` (varias veces), `404.html`, `site.webmanifest`, `assets/favicon.svg` |
 | `Tu Ciudad` | `index.template.html` |
 | `tu-usuario.github.io/portafolio-reparacion-pc` | `index.template.html` (canonical, Open Graph, JSON-LD), `robots.txt`, `sitemap.xml` |
 | Horario, zona y tipos de equipo | `index.template.html`, sección «Sobre mí» |
@@ -42,7 +41,7 @@ El sitio tiene datos de ejemplo que **tenés que reemplazar** antes de publicarl
 
 Revisá también que las respuestas de **Preguntas frecuentes** y los pasos de **Cómo trabajo** describan cómo trabajás de verdad (presupuesto, copia de seguridad, plazos). Están redactadas como propuesta y no como compromisos confirmados.
 
-Con el buscador del editor encontrás todos los datos de ejemplo: buscá `Tu Nombre`, `Tu Ciudad`, `tu-usuario` y `ejemplo`.
+Con el buscador del editor encontrás todos los datos de ejemplo: buscá `Tu Ciudad`, `tu-usuario` y `ejemplo`.
 
 El celular (`5493858459463`) y el correo ya están cargados. Para cambiarlos, editá la constante `WHATSAPP_NUMBER` en `js/main.js` y los enlaces `wa.me`, `tel:` y `mailto:` de `index.template.html`.
 
