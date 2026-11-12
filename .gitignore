@@ -1,0 +1,25 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+
+# Secretos (nunca subir)
+.env
+.env.*
+
+# Impeccable: archivos de trabajo locales
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/config.local.json
+.impeccable/decision-payload.json
+.impeccable/cdp-profile/
+.impeccable/build/
+.claude/settings.local.json

@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-12T23:01:58+00:00",
+  "title": "Design System: Reparación de PC",
+  "extensions": {
+    "colorMeta": {
+      "signal": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "tonalRamp": [
+          "#1e0100",
+          "#550000",
+          "#800000",
+          "#ad1c00",
+          "#dc3900",
+          "#ff5c2b",
+          "#ff8f66",
+          "#ffdcc8"
+        ],
+        "canonical": "oklch(66.8% 0.222 35.9)",
+        "cssVar": "--signal"
+      },
+      "signal-text": {
+        "role": "primary",
+        "displayName": "Signal Text",
+        "tonalRamp": [
+          "#1c0300",
+          "#500000",
+          "#7a0e00",
+          "#a62a00",
+          "#ce4d28",
+          "#eb7959",
+          "#ffa68a",
+          "#ffe4d8"
+        ],
+        "canonical": "oklch(54.6% 0.180 36.4)",
+        "cssVar": "--signal-text"
+      },
+      "signal-ink": {
+        "role": "neutral",
+        "displayName": "Ink on Signal",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ],
+        "canonical": "oklch(19.1% 0 0)",
+        "cssVar": "--signal-ink"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Manual Paper",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "canonical": "oklch(97.2% 0.004 121.6)",
+        "cssVar": "--paper"
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Second Sheet",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "canonical": "oklch(94.4% 0.007 115.7)",
+        "cssVar": "--paper-2"
+      },
+      "part-fill": {
+        "role": "neutral",
+        "displayName": "Part Fill",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "canonical": "oklch(98.8% 0.003 106.4)",
+        "cssVar": "--part-fill"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ],
+        "canonical": "oklch(19.1% 0 0)",
+        "cssVar": "--ink"
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Grey Ink",
+        "tonalRamp": [
+          "#0b0b09",
+          "#24241f",
+          "#40403a",
+          "#5e5e58",
+          "#7e7e77",
+          "#9f9f98",
+          "#c5c5be",
+          "#efefeb"
+        ],
+        "canonical": "oklch(44.8% 0.010 106.8)",
+        "cssVar": "--ink-2"
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "canonical": "oklch(82.1% 0.008 114.3)",
+        "cssVar": "--rule"
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "canonical": "oklch(64.4% 0.010 113.3)",
+        "cssVar": "--rule-strong"
+      },
+      "graphite-paper": {
+        "role": "neutral",
+        "displayName": "Graphite Paper (dark)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232426",
+          "#3f4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#eeeef0"
+        ],
+        "canonical": "oklch(20.4% 0.004 264.5)",
+        "cssVar": "--paper (dark theme)"
+      },
+      "graphite-paper-2": {
+        "role": "neutral",
+        "displayName": "Graphite Second Sheet (dark)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232426",
+          "#3f4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#eeeef0"
+        ],
+        "canonical": "oklch(23.5% 0.006 271.2)",
+        "cssVar": "--paper-2 (dark theme)"
+      },
+      "graphite-ink": {
+        "role": "neutral",
+        "displayName": "Chalk Ink (dark)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "canonical": "oklch(93.9% 0.007 97.4)",
+        "cssVar": "--ink (dark theme)"
+      },
+      "graphite-ink-2": {
+        "role": "neutral",
+        "displayName": "Grey Chalk (dark)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242421",
+          "#3f403c",
+          "#5d5e5a",
+          "#7d7e79",
+          "#9e9f9a",
+          "#c4c5c0",
+          "#eeefec"
+        ],
+        "cssVar": "--ink-2 (dark theme)"
+      },
+      "graphite-rule": {
+        "role": "neutral",
+        "displayName": "Graphite Hairline (dark)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232426",
+          "#3f4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#eeeef0"
+        ],
+        "cssVar": "--rule (dark theme)"
+      },
+      "graphite-rule-strong": {
+        "role": "neutral",
+        "displayName": "Graphite Strong Hairline (dark)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232426",
+          "#3f4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#eeeef0"
+        ],
+        "cssVar": "--rule-strong (dark theme)"
+      },
+      "graphite-signal": {
+        "role": "primary",
+        "displayName": "Signal Orange (dark)",
+        "tonalRamp": [
+          "#1c0300",
+          "#4f0000",
+          "#771600",
+          "#a23200",
+          "#cf4d19",
+          "#fe6932",
+          "#ff9869",
+          "#ffdec9"
+        ],
+        "canonical": "oklch(70.3% 0.194 39.3)",
+        "cssVar": "--signal (dark theme)"
+      },
+      "graphite-signal-text": {
+        "role": "primary",
+        "displayName": "Signal Text (dark)",
+        "tonalRamp": [
+          "#190501",
+          "#460c00",
+          "#6c2605",
+          "#94421f",
+          "#be5e37",
+          "#e97b50",
+          "#ffa276",
+          "#ffe1cd"
+        ],
+        "canonical": "oklch(75.3% 0.155 41.6)",
+        "cssVar": "--signal-text (dark theme)"
+      },
+      "graphite-part-fill": {
+        "role": "neutral",
+        "displayName": "Graphite Part Fill (dark)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232426",
+          "#3f4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#eeeef0"
+        ],
+        "cssVar": "--part-fill (dark theme)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page's single h1 and the 404 title; Archivo at width 125%."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles; optional normal-width grey subtitle line inside the heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Parts-list symptoms, process panel titles, mobile menu links."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero and about intro copy in grey ink, max 34ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy with tabular numerals; intros 46ch, answers 60ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase figure numbers, sheet/title-block keys, part names. Never above a heading."
+      }
+    },
+    "shadows": [
+      {
+        "name": "field-focus-halo",
+        "value": "0 0 0 3px color-mix(in srgb, var(--signal) 30%, transparent)",
+        "purpose": "Focus state on text fields only. Not elevation; the system has no elevation shadows."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default easing for buttons, nav underline, row lighting, process rail, panel reveal."
+      },
+      {
+        "name": "assembly-separate",
+        "value": "transform .9s ease-out, staggered .05s-.4s; callouts fade in at .95s",
+        "purpose": "One-time opening: parts separate from the assembled case into exploded positions."
+      },
+      {
+        "name": "row-light",
+        "value": "top bar scaleX .45s ease-out; stroke/fill .25s ease",
+        "purpose": "Lighting a part row and its drawn part."
+      },
+      {
+        "name": "process-advance",
+        "value": "transform/left .7s ease-out",
+        "purpose": "Process rail fill and marker moving to the active step."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durations 0.01ms, delays 0",
+        "purpose": "All motion collapses under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sheets-stack",
+        "value": "1080px"
+      },
+      {
+        "name": "single-column",
+        "value": "960px"
+      },
+      {
+        "name": "phone",
+        "value": "720px"
+      }
+    ],
+    "layout": {
+      "wrap": "1240px",
+      "gutter": "clamp(1rem, 0.6rem + 2vw, 2.5rem)",
+      "headerHeight": "4.25rem",
+      "minTapTarget": "44px"
+    },
+    "strokes": [
+      {
+        "name": "frame",
+        "value": "1.5px solid ink",
+        "purpose": "Table heads, sheet and title-block frames, button borders."
+      },
+      {
+        "name": "hairline",
+        "value": "1px solid rule",
+        "purpose": "Row and section dividers."
+      },
+      {
+        "name": "data-subrow",
+        "value": "1px dotted rule-strong",
+        "purpose": "Key/value rows inside a work sheet."
+      },
+      {
+        "name": "provisional",
+        "value": "1px/1.5px dashed rule-strong",
+        "purpose": "Placeholders, example tags, unsent message preview."
+      },
+      {
+        "name": "drawing",
+        "value": "parts 1.1, details 0.8, leaders 0.9 (2 when lit)",
+        "purpose": "Exploded-view SVG stroke weights."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Signal-orange square tab for the primary action; turns ink on hover.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Contacto</a>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; justify-content:center; gap:0.6em; min-height:48px; padding:0.7em 1.2em; border:1.5px solid var(--signal, #ff4d12); background:var(--signal, #ff4d12); color:var(--signal-ink, #141414); font-family:var(--font, Archivo, 'Arial Narrow', system-ui, sans-serif); font-weight:650; font-stretch:112%; text-decoration:none; border-radius:0; cursor:pointer; transition:background-color .2s cubic-bezier(0.16,1,0.3,1), color .2s cubic-bezier(0.16,1,0.3,1), transform .2s cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary:hover { background:var(--ink, #141414); border-color:var(--ink, #141414); color:var(--paper, #f5f6f3); } .ds-btn-primary:active { transform:translateY(1px); } .ds-btn-primary:focus-visible { outline:2px solid var(--focus, #ff4d12); outline-offset:3px; }"
+    },
+    {
+      "name": "Primary Button, Large with Callout",
+      "kind": "button",
+      "refersTo": "button-primary-lg",
+      "description": "Hero WhatsApp action: callout number ring 01, inline SVG icon, label.",
+      "html": "<a class=\"ds-btn-lg\" href=\"#\"><span class=\"ds-callout-num\">01</span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.5 5 5.14-1.35A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.05.8.82-2.97-.2-.31a8.2 8.2 0 1 1 6.93 3.81Z\"/></svg>Escribime por WhatsApp</a>",
+      "css": ".ds-btn-lg { display:inline-flex; align-items:center; gap:0.6em; min-height:56px; padding:0.85em 1.4em 0.85em 0.85em; border:1.5px solid var(--signal, #ff4d12); background:var(--signal, #ff4d12); color:var(--signal-ink, #141414); font-family:var(--font, Archivo, 'Arial Narrow', system-ui, sans-serif); font-size:1.05rem; font-weight:650; font-stretch:112%; text-decoration:none; transition:background-color .2s, color .2s; } .ds-btn-lg:hover { background:var(--ink, #141414); border-color:var(--ink, #141414); color:var(--paper, #f5f6f3); } .ds-btn-lg:focus-visible { outline:2px solid var(--focus, #ff4d12); outline-offset:3px; } .ds-callout-num { display:inline-grid; place-items:center; width:2.1em; height:2.1em; border:1.5px solid currentColor; border-radius:50%; font-size:0.78em; font-weight:700; }"
+    },
+    {
+      "name": "Quiet Link",
+      "kind": "button",
+      "refersTo": "link-quiet",
+      "description": "Secondary action: grey underlined link whose underline turns orange on hover.",
+      "html": "<a class=\"ds-link-quiet\" href=\"#\">o llamame al 11 0000-0000</a>",
+      "css": ".ds-link-quiet { display:inline-flex; align-items:center; min-height:44px; color:var(--ink-2, #55554f); text-decoration:underline; text-decoration-color:var(--rule-strong, #8d8e87); text-underline-offset:0.2em; font-family:var(--font, Archivo, sans-serif); } .ds-link-quiet:hover { color:var(--ink, #141414); text-decoration-color:var(--signal, #ff4d12); } .ds-link-quiet:focus-visible { outline:2px solid var(--focus, #ff4d12); outline-offset:3px; }"
+    },
+    {
+      "name": "Symptom Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Square multi-select checkbox chip; selected fills signal.",
+      "html": "<label class=\"ds-chip\"><input type=\"checkbox\" checked><span>Se apaga solo</span></label> <label class=\"ds-chip\"><input type=\"checkbox\"><span>Tarda en prender</span></label>",
+      "css": ".ds-chip { position:relative; display:inline-block; } .ds-chip input { position:absolute; opacity:0; inset:0; margin:0; cursor:pointer; } .ds-chip span { display:inline-flex; align-items:center; min-height:44px; padding:0.4em 0.9em; border:1.2px solid var(--rule-strong, #8d8e87); font-family:var(--font, Archivo, sans-serif); font-size:0.9rem; font-weight:550; color:var(--ink, #141414); transition:background-color .2s ease, border-color .2s ease, color .2s ease; } .ds-chip input:hover + span { border-color:var(--ink, #141414); } .ds-chip input:checked + span { background:var(--signal, #ff4d12); border-color:var(--signal, #ff4d12); color:var(--signal-ink, #141414); } .ds-chip input:focus-visible + span { outline:2px solid var(--focus, #ff4d12); outline-offset:2px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square field on part-fill; focus turns the border orange with a translucent halo.",
+      "html": "<label class=\"ds-field\"><span>Tu nombre</span><input type=\"text\" placeholder=\"Opcional\"></label>",
+      "css": ".ds-field { display:grid; gap:0.75rem; font-family:var(--font, Archivo, sans-serif); color:var(--ink, #141414); } .ds-field span { font-weight:650; font-stretch:112%; } .ds-field input { width:100%; padding:0.75em 0.85em; border:1.2px solid var(--rule-strong, #8d8e87); border-radius:0; background:var(--part-fill, #fbfbf9); color:inherit; font:inherit; transition:border-color .2s ease; } .ds-field input::placeholder { color:var(--ink-2, #55554f); opacity:1; } .ds-field input:hover { border-color:var(--ink, #141414); } .ds-field input:focus { border-color:var(--signal, #ff4d12); outline:none; box-shadow:0 0 0 3px color-mix(in srgb, var(--signal, #ff4d12) 30%, transparent); }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Semi-extended small links; a 2px orange underline draws in on hover and for the current section.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Servicios</a><a href=\"#\" aria-current=\"true\">Proceso</a><a href=\"#\">Trabajos</a></nav>",
+      "css": ".ds-nav { display:flex; gap:0.25rem; background:var(--paper, #f5f6f3); font-family:var(--font, Archivo, sans-serif); } .ds-nav a { display:inline-flex; align-items:center; min-height:44px; padding:0 0.7em; font-size:0.9rem; font-weight:550; font-stretch:112%; color:var(--ink, #141414); text-decoration:none; background-image:linear-gradient(var(--signal, #ff4d12), var(--signal, #ff4d12)); background-size:0 2px; background-repeat:no-repeat; background-position:0.7em calc(100% - 10px); transition:background-size .3s cubic-bezier(0.16,1,0.3,1); } .ds-nav a:hover, .ds-nav a[aria-current='true'] { background-size:calc(100% - 1.4em) 2px; } .ds-nav a:focus-visible { outline:2px solid var(--focus, #ff4d12); outline-offset:3px; }"
+    },
+    {
+      "name": "Parts List Row",
+      "kind": "custom",
+      "refersTo": "callout-number",
+      "description": "Signature row linked to the exploded drawing by part id; lit state shown on hover/focus.",
+      "html": "<ul class=\"ds-parts\"><li class=\"ds-part\" tabindex=\"0\"><span class=\"ds-part-num\">04</span><div><p class=\"ds-part-symptom\">Se apaga solo o hace mucho ruido</p><p class=\"ds-part-name\">Cooler y procesador</p></div></li><li class=\"ds-part\" tabindex=\"0\"><span class=\"ds-part-num\">05</span><div><p class=\"ds-part-symptom\">Tarda en prender</p><p class=\"ds-part-name\">Disco SSD</p></div></li></ul>",
+      "css": ".ds-parts { list-style:none; margin:0; padding:0; border-top:1.5px solid var(--ink, #141414); font-family:var(--font, Archivo, sans-serif); color:var(--ink, #141414); } .ds-part { position:relative; display:grid; grid-template-columns:3.25rem 1fr; gap:0.5rem 1.5rem; padding:1.5rem 0.75rem 1.5rem 0; border-bottom:1px solid var(--rule, #c4c5bf); outline:none; transition:background-color .25s ease; } .ds-part::before { content:''; position:absolute; left:0; right:0; top:-1px; height:2px; background:var(--signal, #ff4d12); transform:scaleX(0); transform-origin:left; transition:transform .45s cubic-bezier(0.16,1,0.3,1); } .ds-part:hover::before, .ds-part:focus-visible::before { transform:scaleX(1); } .ds-part:hover, .ds-part:focus-visible { background:color-mix(in srgb, var(--signal, #ff4d12) 6%, transparent); } .ds-part-num { display:grid; place-items:center; width:2.5rem; height:2.5rem; border:1.4px solid var(--ink, #141414); border-radius:50%; font-weight:750; font-stretch:112%; font-size:0.9rem; transition:background-color .25s ease, border-color .25s ease; } .ds-part:hover .ds-part-num, .ds-part:focus-visible .ds-part-num { background:var(--signal, #ff4d12); border-color:var(--signal, #ff4d12); color:var(--signal-ink, #141414); } .ds-part-symptom { margin:0; font-size:1.6rem; font-weight:700; font-stretch:112%; line-height:1.12; letter-spacing:-0.02em; } .ds-part-name { margin:0.5rem 0 0; font-size:0.9rem; font-weight:650; font-stretch:112%; text-transform:uppercase; letter-spacing:0.07em; color:var(--signal-text, #c23a0b); }"
+    },
+    {
+      "name": "Work Sheet",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "Data sheet with dotted key/value rows and a footer row carrying the sheet label and the example tag.",
+      "html": "<article class=\"ds-sheet\"><h3>Notebook que no carga</h3><dl><div><dt>Llegó</dt><dd>No prende con el cargador.</dd></div><div><dt>Resultado</dt><dd>Carga normal.</dd></div></dl><footer><span class=\"ds-label\">Ficha A</span><span class=\"ds-tag\">Caso de ejemplo</span></footer></article>",
+      "css": ".ds-sheet { display:grid; gap:1rem; padding:1.5rem; border:1.5px solid var(--ink, #141414); font-family:var(--font, Archivo, sans-serif); color:var(--ink, #141414); background:var(--paper, #f5f6f3); max-width:22rem; } .ds-sheet h3 { margin:0; font-size:1.3rem; font-weight:750; font-stretch:112%; line-height:1.2; } .ds-sheet dl { margin:0; display:grid; gap:0.75rem; } .ds-sheet dl div { display:grid; gap:0.25rem; padding-top:0.75rem; border-top:1px dotted var(--rule-strong, #8d8e87); } .ds-sheet dt { font-size:0.85rem; font-weight:650; font-stretch:112%; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-2, #55554f); } .ds-sheet dd { margin:0; font-size:0.9rem; } .ds-sheet dl div:last-child dd { color:var(--signal-text, #c23a0b); font-weight:600; } .ds-sheet footer { display:flex; justify-content:space-between; align-items:center; padding-top:0.75rem; border-top:1.5px solid var(--ink, #141414); } .ds-label { font-size:0.88rem; font-weight:700; font-stretch:112%; text-transform:uppercase; letter-spacing:0.08em; } .ds-tag { font-size:0.75rem; font-weight:650; font-stretch:112%; padding:0.15em 0.6em; border:1px dashed var(--rule-strong, #8d8e87); color:var(--ink-2, #55554f); }"
+    },
+    {
+      "name": "Mobile WhatsApp Bar",
+      "kind": "button",
+      "refersTo": "whatsapp-bar",
+      "description": "Fixed bottom action on phones; separated by a 1.5px ink border and 4px paper outline, never a shadow.",
+      "html": "<a class=\"ds-wa-bar\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.5 5 5.14-1.35A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.05.8.82-2.97-.2-.31a8.2 8.2 0 1 1 6.93 3.81Z\"/></svg>Escribime por WhatsApp</a>",
+      "css": ".ds-wa-bar { display:flex; align-items:center; justify-content:center; gap:0.6em; min-height:54px; max-width:22rem; margin:6px; background:var(--signal, #ff4d12); color:var(--signal-ink, #141414); font-family:var(--font, Archivo, sans-serif); font-weight:700; font-stretch:112%; text-decoration:none; border:1.5px solid var(--ink, #141414); outline:4px solid var(--paper, #f5f6f3); } .ds-wa-bar:hover { background:var(--ink, #141414); color:var(--paper, #f5f6f3); } .ds-wa-bar:focus-visible { outline:2px solid var(--focus, #ff4d12); outline-offset:3px; }"
+    },
+    {
+      "name": "Title Block",
+      "kind": "custom",
+      "refersTo": "title-block",
+      "description": "Footer drawn as a technical drawing's title block.",
+      "html": "<dl class=\"ds-title-block\"><div><dt>Técnico</dt><dd>Tu Nombre</dd></div><div><dt>Servicio</dt><dd>Reparación de PC · Tu Ciudad</dd></div><div><dt>Hoja</dt><dd>1 de 1</dd></div><div><dt>Año</dt><dd>2026</dd></div></dl>",
+      "css": ".ds-title-block { display:grid; grid-template-columns:1.2fr 1.6fr 0.6fr 0.6fr; margin:0; border:1.5px solid var(--ink, #141414); font-family:var(--font, Archivo, sans-serif); font-size:0.9rem; color:var(--ink-2, #55554f); } .ds-title-block div { padding:0.75rem 1rem; border-left:1px solid var(--rule-strong, #8d8e87); } .ds-title-block div:first-child { border-left:0; } .ds-title-block dt { font-size:0.72rem; font-weight:650; font-stretch:112%; text-transform:uppercase; letter-spacing:0.08em; } .ds-title-block dd { margin:0.2em 0 0; color:var(--ink, #141414); font-weight:550; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Exploded-View Service Manual",
+    "overview": "The site is a printed service manual for one desktop PC. Manual-paper off-white, one black ink drawn at single weights, a warm grey for secondary ink, and a single signal orange that marks exactly one thing at a time: the primary action, or the part currently being looked at. The drawing is the hero and the index: every service is a numbered callout on the part it fixes, and the parts list below is the manual's parts table, wired back to the drawing.\n\nDensity is that of a technical document, not a brochure: rows, rules, tables, figure captions (\"Fig. 1\", \"Fig. 2\"), data sheets with key/value rows, and a drawing title block as the footer. Hierarchy comes from width and weight of one variable family (Archivo, stretched to 125% for headings) and from rule weight (1.5px ink for table heads and frames, 1px grey for row divisions). Nothing floats; everything is printed flat on the sheet.\n\nDark mode is the same manual reprinted white-on-graphite, not a different mood. The confirmed rejection is the dark-tech hero with a stock PC photo above a row of icon cards.",
+    "keyCharacteristics": [
+      "One ink, one paper, one signal orange; orange means \"this one\" or \"do this\".",
+      "Line drawings at single stroke weights; parts lift to orange when lit.",
+      "Square corners everywhere except numbered callout circles.",
+      "Flat: depth comes from rules, frames and paper tone, never shadow.",
+      "Captions, footers and table keys carry the uppercase labels; headings stand alone."
+    ],
+    "rules": [
+      {
+        "name": "The Single Signal Rule",
+        "body": "Orange marks the primary action or the one element currently lit, focused or selected. Never decoration, never a section background, never a second accent. If two unrelated things are orange at once, one is wrong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Text-Orange Rule",
+        "body": "Orange as text on paper uses signal-text, never signal; signal is for fills, strokes and outlines.",
+        "section": "colors"
+      },
+      {
+        "name": "The Graphite Reprint Rule",
+        "body": "Dark mode swaps the paper and ink values and nothing else. The contact block, ink-black in light mode, stays graphite (paper-2) in dark mode rather than inverting to a light slab.",
+        "section": "colors"
+      },
+      {
+        "name": "The Caption-Not-Kicker Rule",
+        "body": "Uppercase labels live where a manual puts them: in figure captions, sheet footers, table keys and the title block. Nothing small and uppercase sits above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Emphasis is set with Archivo's width (100 / 112 / 125) and weight, never with a second family or italics.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Print Rule",
+        "body": "Nothing lifts off the sheet. Where an element must separate from what scrolls under it (the mobile WhatsApp bar), it gets a 1.5px ink border plus a 4px paper outline, the way a printed sticker is cut out, not a shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square-Except-Callouts Rule",
+        "body": "If it is not a numbered callout, its corners are square.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Dashed-Means-Provisional Rule",
+        "body": "A dashed border says \"placeholder, example or draft\". Real content never gets one.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep orange to the primary action and the single lit, focused or selected element; use signal-text when orange is text on paper.",
+      "**Do** put uppercase labels in captions (\"Fig. N\"), sheet footers, table keys and the title block.",
+      "**Do** caption every figure as \"Fig. N\" followed by a plain grey description.",
+      "**Do** separate floating elements with a 1.5px ink border and a 4px paper outline instead of a shadow.",
+      "**Do** link any new drawing to its list or text through the shared part id so both light together.",
+      "**Do** keep placeholders (\"Tu Nombre\", \"Tu Ciudad\", example cases) visibly provisional, with a dashed frame or \"Caso de ejemplo\" tag where they stand in for real content.",
+      "**Do** reprint dark mode with the graphite set and keep the contact block graphite (paper-2)."
+    ],
+    "donts": [
+      "**Don't** place a kicker or eyebrow label above a heading.",
+      "**Don't** use elevation shadows, glass, blur or visible gradients.",
+      "**Don't** round corners on anything but numbered callout circles.",
+      "**Don't** add a second accent colour or use orange as a section background.",
+      "**Don't** introduce a second typeface or icon glyph fonts; icons are inline SVG sprites at 1.25em.",
+      "**Don't** fall back to a dark-tech hero with a stock PC photo and a row of icon cards."
+    ]
+  }
+}

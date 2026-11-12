@@ -1,0 +1,12 @@
+{
+  "name": "Tu Nombre · Reparación de PC",
+  "short_name": "Reparación PC",
+  "lang": "es-AR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f3",
+  "theme_color": "#f5f6f3",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
