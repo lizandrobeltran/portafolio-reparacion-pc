@@ -36,16 +36,15 @@ El sitio tiene datos de ejemplo que **tenés que reemplazar** antes de publicarl
 |---|---|
 | `Tu Nombre`, `TN` (iniciales) | `index.template.html` (varias veces), `404.html`, `site.webmanifest`, `assets/favicon.svg` |
 | `Tu Ciudad` | `index.template.html` |
-| `5491100000000` (WhatsApp) | `js/main.js` (constante `WHATSAPP_NUMBER`) y `index.template.html` (enlaces `wa.me` y `tel:`) |
-| `11 0000-0000` (teléfono visible) | `index.template.html` |
-| `tuemail@ejemplo.com` | `index.template.html` |
 | `tu-usuario.github.io/portafolio-reparacion-pc` | `index.template.html` (canonical, Open Graph, JSON-LD), `robots.txt`, `sitemap.xml` |
 | Horario, zona y tipos de equipo | `index.template.html`, sección «Sobre mí» |
 | Fichas A, B y C («Caso de ejemplo») | `index.template.html`, sección «Trabajos». Reemplazalas por reparaciones reales y sacá la etiqueta «Caso de ejemplo». |
 
 Revisá también que las respuestas de **Preguntas frecuentes** y los pasos de **Cómo trabajo** describan cómo trabajás de verdad (presupuesto, copia de seguridad, plazos). Están redactadas como propuesta y no como compromisos confirmados.
 
-Con el buscador del editor encontrás todos los datos de ejemplo: buscá `Tu Nombre`, `Tu Ciudad`, `0000` y `ejemplo`.
+Con el buscador del editor encontrás todos los datos de ejemplo: buscá `Tu Nombre`, `Tu Ciudad`, `tu-usuario` y `ejemplo`.
+
+El celular (`5493858459463`) y el correo ya están cargados. Para cambiarlos, editá la constante `WHATSAPP_NUMBER` en `js/main.js` y los enlaces `wa.me`, `tel:` y `mailto:` de `index.template.html`.
 
 ### Después de editar: regenerar `index.html`
 

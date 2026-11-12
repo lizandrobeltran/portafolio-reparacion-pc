@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Datos de contacto: cambiá este número (formato internacional, sin + ni espacios). */
-const WHATSAPP_NUMBER = "5491100000000";
+const WHATSAPP_NUMBER = "5493858459463";
 
 const root = document.documentElement;
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
